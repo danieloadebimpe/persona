@@ -8,7 +8,7 @@ contract SismoVerification is ERC721, SismoConnect {
 
     bytes16 public constant APP_ID = 0x149e519de68a4e8a93b7d41484f388cc; 
     
-    constructor() ERC721("name", "NFT") SismoConnect(APP_ID)  
+    constructor() ERC721("Dummy", "NFT") SismoConnect(APP_ID)  
     {}
 
     function verifySismoConnect(bytes memory response) public {
