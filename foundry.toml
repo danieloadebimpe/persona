@@ -16,7 +16,7 @@ sepolia = "${SEPOLIA_RPC_URL}"
 ethmainnet = "${ETH_RPC_URL}"
 
 [etherscan]
-anvil = {key = "blacksmith", url = "http://localhost:3000/api/verify/" }
-# goerli = { key = "${ETHERSCAN_API_KEY}" }
+# anvil = {key = "blacksmith", url = "http://localhost:3000/api/verify/" }
+goerli = { key = "${ETHERSCAN_API_KEY}" }
 # mumbai = { key = "${POLYGONSCAN_API_KEY}", chain = "polygon-mumbai" }
 # bsc = { key = "BSCSCAN_API_KEY", url = "https://api-testnet.bscscan.com/" }
