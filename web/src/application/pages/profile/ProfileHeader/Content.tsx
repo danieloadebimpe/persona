@@ -71,7 +71,7 @@ const Connection = styled.div`
   color: gray;
 `;
 const Wallet = styled.div`
-  ont-family: Satoshi;
+  font-family: Satoshi;
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
